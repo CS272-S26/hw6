@@ -12,7 +12,7 @@ You are *only* allowed to use the global variables given to you: `APPLE_COST`, `
 
 ### 1. `addToCart`
 
-Implement the `addToCart` function such that it first checks if the amount, retrieved from the input with `id` of `add-amount`, is a positive number. If it isn't, you should alert the user to "Please enter a positive number for an amount." Otherwise, update the corresponding number of apples, bananas, or coconuts (based on what was selected) in the cart. Finally, be sure to call `updateCart` to reflect these changes in the UI.
+Implement the `addToCart` function such that it first checks if the amount, retrieved from the input with `id` of `add-amount`, is a positive, non-zero number. If it isn't, you should alert the user to "Please enter a positive number for an amount." Otherwise, parse it as an integer and update the corresponding number of apples, bananas, or coconuts (based on what was selected) in the cart. Finally, be sure to call `updateCart` to reflect these changes in the UI.
 
 **Note:** This operation is *additive*, meaning that if the user adds 2 apples, then adds 3 apples, they will have a total of 5 apples in their cart.
 
